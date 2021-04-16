@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
 function greet(string){
-  string="HH:MM";
+  
   let s=string.split(":");
   let h=s[0];
   let m=s[1];
@@ -20,8 +20,8 @@ function greet(string){
   let s1=parseInt(s);
   if(h1<12)
   {return "Good Morning";}
-  else if ((h1>=12) && (h1<=5))
+  else if ((h1>=12) && (h1<=17))
   {return "Good Afternoon";}
-  else
-  return "Good Evening";
+  else if (h1>17)
+{  return "Good Evening";}
 }
