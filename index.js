@@ -19,9 +19,9 @@ function greet(string){
   let h1=parseInt(h);
   let s1=parseInt(s);
   if(s<12)
-  return "Good Morning";
+  {return "Good Morning";}
   else if (s>=12 && s<=5)
-  return "Good Afternoon";
+  {return "Good Afternoon";}
   else
   return "Good Evening";
 }
