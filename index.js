@@ -20,7 +20,7 @@ function greet(string){
   let s1=parseInt(s);
   if(h1<12)
   {return "Good Morning";}
-  else if (h1>=12 && h1<=5)
+  else if ((h1>=12) && (h1<=5))
   {return "Good Afternoon";}
   else
   return "Good Evening";
