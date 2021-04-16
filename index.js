@@ -26,6 +26,7 @@ function greet(timestring){
 {  return "Good Evening";}
 }
 
-displayMessage(string){
-  let x=getElementById("greeting").innerText=string;
+ function  displayMessage(string){
+  let x=getElementById("greeting");
+  x.innerText=string;
 }
