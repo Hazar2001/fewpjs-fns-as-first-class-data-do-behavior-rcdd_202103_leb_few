@@ -22,6 +22,6 @@ function greet(string){
   return "Good Morning";
   else if (s>=12 && s<=5)
   return "Good Afternoon";
-  else 
+  else
   return "Good Evening";
 }
