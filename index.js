@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
 function greet(string){
-  
+
   let s=string.split(":");
   let h=s[0];
   let m=s[1];
