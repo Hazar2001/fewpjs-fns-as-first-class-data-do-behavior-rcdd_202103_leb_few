@@ -11,9 +11,9 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
-function greet(string){
+function greet(timestring){
 
-  let s=string.split(":");
+  let s=timestring.split(":");
   let h=s[0];
   let m=s[1];
   let h1=parseInt(h);
@@ -24,4 +24,8 @@ function greet(string){
   {return "Good Afternoon";}
   else if (h1>17)
 {  return "Good Evening";}
+}
+
+displayMessage(string){
+  let x=getElementById("greeting").innerText=string;
 }
