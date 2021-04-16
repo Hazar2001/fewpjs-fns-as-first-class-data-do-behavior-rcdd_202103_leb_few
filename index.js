@@ -11,3 +11,12 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
+function greet(string){
+  let string="HH:MM";
+  if (split(string) < 12:00)
+   return("Good Morning");
+   if (split(string) > 12:00 && split(string) < 05:00)
+    return("Good Afternoon");
+   if (split(string) > 12:00);
+   return ("Good Evening");
+}
